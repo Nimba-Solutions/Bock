@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alumni_Association__c</fullName>
+    <externalId>false</externalId>
+    <label>Alumni Association</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Georgia Tech Alumni Association</fullName>
+                <default>false</default>
+                <label>Georgia Tech Alumni Association</label>
+            </value>
+            <value>
+                <fullName>K-State Alumni Association</fullName>
+                <default>false</default>
+                <label>K-State Alumni Association</label>
+            </value>
+            <value>
+                <fullName>Iowa State University Alumni Association</fullName>
+                <default>false</default>
+                <label>Iowa State University Alumni Association</label>
+            </value>
+            <value>
+                <fullName>Mizzou Alumni Association</fullName>
+                <default>false</default>
+                <label>Mizzou Alumni Association</label>
+            </value>
+            <value>
+                <fullName>The Kansas University Alumni Association</fullName>
+                <default>false</default>
+                <label>The Kansas University Alumni Association</label>
+            </value>
+            <value>
+                <fullName>University Of California Davis Campus Alumni Association</fullName>
+                <default>false</default>
+                <label>University Of California Davis Campus Alumni Association</label>
+            </value>
+            <value>
+                <fullName>University Of Florida Alumni Association</fullName>
+                <default>false</default>
+                <label>University Of Florida Alumni Association</label>
+            </value>
+            <value>
+                <fullName>University Of Kentucky Alumni Association</fullName>
+                <default>false</default>
+                <label>University Of Kentucky Alumni Association</label>
+            </value>
+            <value>
+                <fullName>Mississippi State University Alumni Association</fullName>
+                <default>false</default>
+                <label>Mississippi State University Alumni Association</label>
+            </value>
+            <value>
+                <fullName>Nebraska Alumni Association</fullName>
+                <default>false</default>
+                <label>Nebraska Alumni Association</label>
+            </value>
+            <value>
+                <fullName>University Of Minnesota Alumni Association</fullName>
+                <default>false</default>
+                <label>University Of Minnesota Alumni Association</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
