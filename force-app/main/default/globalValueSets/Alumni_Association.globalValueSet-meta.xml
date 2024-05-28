@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Georgia Tech Alumni Association</fullName>
+        <default>false</default>
+        <label>Georgia Tech Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>K-State Alumni Association</fullName>
+        <default>false</default>
+        <label>K-State Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Iowa State University Alumni Association</fullName>
+        <default>false</default>
+        <label>Iowa State University Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Mizzou Alumni Association</fullName>
+        <default>false</default>
+        <label>Mizzou Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>The Kansas University Alumni Association</fullName>
+        <default>false</default>
+        <label>The Kansas University Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>University Of California Davis Campus Alumni Association</fullName>
+        <default>false</default>
+        <label>University Of California Davis Campus Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>University Of Florida Alumni Association</fullName>
+        <default>false</default>
+        <label>University Of Florida Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>University Of Kentucky Alumni Association</fullName>
+        <default>false</default>
+        <label>University Of Kentucky Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Mississippi State University Alumni Association</fullName>
+        <default>false</default>
+        <label>Mississippi State University Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Nebraska Alumni Association</fullName>
+        <default>false</default>
+        <label>Nebraska Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>University Of Minnesota Alumni Association</fullName>
+        <default>false</default>
+        <label>University Of Minnesota Alumni Association</label>
+    </customValue>
+    <masterLabel>Alumni Association</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

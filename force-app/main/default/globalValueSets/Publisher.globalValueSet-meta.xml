@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Lee AgriMedia</fullName>
+        <default>false</default>
+        <label>Lee AgriMedia</label>
+    </customValue>
+    <customValue>
+        <fullName>Irrigation Association</fullName>
+        <default>false</default>
+        <label>Irrigation Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Lee AgriMedia2 (non-Farmer Today)</fullName>
+        <default>false</default>
+        <label>Lee AgriMedia2 (non-Farmer Today)</label>
+    </customValue>
+    <customValue>
+        <fullName>The Free Press</fullName>
+        <default>false</default>
+        <label>The Free Press</label>
+    </customValue>
+    <customValue>
+        <fullName>Alumni Association</fullName>
+        <default>false</default>
+        <label>Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Farm Journal</fullName>
+        <default>false</default>
+        <label>Farm Journal</label>
+    </customValue>
+    <masterLabel>Publisher</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
