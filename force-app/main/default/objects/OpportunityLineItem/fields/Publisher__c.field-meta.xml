@@ -7,38 +7,6 @@
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
-        <valueSetDefinition>
-            <sorted>false</sorted>
-            <value>
-                <fullName>Lee AgriMedia</fullName>
-                <default>false</default>
-                <label>Lee AgriMedia</label>
-            </value>
-            <value>
-                <fullName>Irrigation Association</fullName>
-                <default>false</default>
-                <label>Irrigation Association</label>
-            </value>
-            <value>
-                <fullName>Lee AgriMedia2 (non-Farmer Today)</fullName>
-                <default>false</default>
-                <label>Lee AgriMedia2 (non-Farmer Today)</label>
-            </value>
-            <value>
-                <fullName>The Free Press</fullName>
-                <default>false</default>
-                <label>The Free Press</label>
-            </value>
-            <value>
-                <fullName>Alumni Association</fullName>
-                <default>false</default>
-                <label>Alumni Association</label>
-            </value>
-            <value>
-                <fullName>Farm Journal</fullName>
-                <default>false</default>
-                <label>Farm Journal</label>
-            </value>
-        </valueSetDefinition>
+        <valueSetName>Publisher</valueSetName>
     </valueSet>
 </CustomField>
