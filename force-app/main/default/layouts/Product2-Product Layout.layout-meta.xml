@@ -15,10 +15,6 @@
                 <behavior>Edit</behavior>
                 <field>ProductCode</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CanUseQuantitySchedule</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -29,10 +25,6 @@
                 <behavior>Edit</behavior>
                 <field>Family</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CanUseRevenueSchedule</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -42,22 +34,6 @@
         <editHeading>true</editHeading>
         <label>Quantity Schedule</label>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>NumberOfQuantityInstallments</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>QuantityInstallmentPeriod</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>QuantityScheduleType</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>QuantityUnitOfMeasure</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>
@@ -68,18 +44,6 @@
         <editHeading>true</editHeading>
         <label>Product Schedule</label>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>NumberOfRevenueInstallments</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>RevenueInstallmentPeriod</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>RevenueScheduleType</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>UnitSize__c</field>
