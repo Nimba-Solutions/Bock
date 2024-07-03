@@ -90,10 +90,6 @@
                     <name>body</name>
                     <value>relatedTabContent</value>
                 </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>title</name>
-                    <value>Product Schedule</value>
-                </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>relatedListsTab</identifier>
             </componentInstance>
