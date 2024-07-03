@@ -1,7 +1,7 @@
 {
   "orgName": "Bock - Dev Org",
   "edition": "Developer",
-  "features":["ProductsAndSchedules"],
+  "features": ["ProductsAndSchedules"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
