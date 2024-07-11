@@ -11,4 +11,29 @@
         <default>false</default>
         <label>Customer</label>
     </standardValue>
+    <standardValue>
+        <fullName>Actively Advertising</fullName>
+        <default>false</default>
+        <label>Actively Advertising</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Classification in Question</fullName>
+        <default>false</default>
+        <label>Classification in Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Do Not Call / Internal Publisher Account</fullName>
+        <default>false</default>
+        <label>Do Not Call / Internal Publisher Account</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect - Rep Actively Working</fullName>
+        <default>false</default>
+        <label>Prospect - Rep Actively Working</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </standardValue>
 </StandardValueSet>

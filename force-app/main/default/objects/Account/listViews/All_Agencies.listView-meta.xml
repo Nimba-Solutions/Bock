@@ -3,6 +3,7 @@
     <fullName>All_Agencies</fullName>
     <columns>ACCOUNT.NAME</columns>
     <columns>PARENT_NAME</columns>
+    <columns>Agency_Owner__c</columns>
     <columns>ACCOUNT.ADDRESS1_CITY</columns>
     <columns>ACCOUNT.ADDRESS1_STATE</columns>
     <filterScope>Everything</filterScope>

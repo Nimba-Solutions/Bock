@@ -16,7 +16,6 @@
         <isOptional>false</isOptional>
     </lookupFilter>
     <referenceTo>Account</referenceTo>
-    <relationshipLabel>Publisher Relationships</relationshipLabel>
     <relationshipName>APR_Advertiser</relationshipName>
     <required>false</required>
     <trackHistory>true</trackHistory>
