@@ -1,0 +1,196 @@
+# Editing this file is usually not recommended because it will
+# be overwritten the next time you re-capture this data.
+#
+# You can change this file's contents permanently by creating a
+# .load.yml file and re-capturing:
+#
+#  https://cumulusci.readthedocs.io/en/stable/data.html#extracting-and-loading-sample-datasets
+Insert OperatingHours:
+  sf_object: OperatingHours
+  table: OperatingHours
+  fields:
+  - Name
+  - TimeZone
+Insert ContentVersion:
+  sf_object: ContentVersion
+  table: ContentVersion
+  fields:
+  - IsAssetEnabled
+  - ContentLocation
+  - ContentModifiedDate
+  - Origin
+  - ContentUrl
+  - Description
+  - ExternalDocumentInfo1
+  - ExternalDocumentInfo2
+  - SharingPrivacy
+  - IsMajorVersion
+  - PathOnClient
+  - SharingOption
+  - ReasonForChange
+  - TagCsv
+  - Title
+  - VersionData
+Insert ContentAsset:
+  sf_object: ContentAsset
+  table: ContentAsset
+  fields:
+  - MasterLabel
+  - IsVisibleByExternalUsers
+  - Language
+  - DeveloperName
+Insert Pricebook2:
+  sf_object: Pricebook2
+  table: Pricebook2
+  fields:
+  - IsActive
+  - Description
+  - Name
+Insert Product2:
+  sf_object: Product2
+  table: Product2
+  fields:
+  - Alumni_Association__c
+  - CanUseQuantitySchedule
+  - CanUseRevenueSchedule
+  - Description
+  - DisplayUrl
+  - ExternalId
+  - Family
+  - IsActive
+  - IsSerialized
+  - Media_Asset__c
+  - Name
+  - NumberOfQuantityInstallments
+  - NumberOfRevenueInstallments
+  - ProductCode
+  - Publisher__c
+  - QuantityInstallmentPeriod
+  - QuantityScheduleType
+  - QuantityUnitOfMeasure
+  - RevenueInstallmentPeriod
+  - RevenueScheduleType
+  - StockKeepingUnit
+  - TransferRecordMode
+  - UnitSize__c
+Insert DandBCompany:
+  sf_object: DandBCompany
+  table: DandBCompany
+  fields:
+  - DunsNumber
+  - Name
+Insert Account:
+  sf_object: Account
+  table: Account
+  fields:
+  - Description
+  - Fax
+  - Name
+  - AccountNumber
+  - Phone
+  - Rating
+  - Site
+  - AccountSource
+  - Type
+  - Agency_Owner__c
+  - AnnualRevenue
+  - BillingCity
+  - BillingCountry
+  - BillingGeocodeAccuracy
+  - BillingLatitude
+  - BillingLongitude
+  - BillingState
+  - BillingStreet
+  - BillingPostalCode
+  - Category__c
+  - CleanStatus
+  - Common_Name__c
+  - Current__c
+  - DunsNumber
+  - Jigsaw
+  - NumberOfEmployees
+  - Entity_Name__c
+  - Fiscal_Year_Start_Date__c
+  - FJM_Naviga_ID__c
+  - Industry
+  - NaicsCode
+  - NaicsDesc
+  - Notes__c
+  - Old_Org_18_ID__c
+  - Ownership
+  - ShippingCity
+  - ShippingCountry
+  - ShippingGeocodeAccuracy
+  - ShippingLatitude
+  - ShippingLongitude
+  - ShippingState
+  - ShippingStreet
+  - ShippingPostalCode
+  - Sic
+  - SicDesc
+  - TickerSymbol
+  - Tradestyle
+  - Website
+  - YearStarted
+  - RecordTypeId
+  lookups:
+    Agency__c:
+      table: Account
+      key_field: Agency__c
+      after: Insert Account
+    DandbCompanyId:
+      table: DandBCompany
+      key_field: DandbCompanyId
+    OperatingHoursId:
+      table: OperatingHours
+      key_field: OperatingHoursId
+    ParentId:
+      table: Account
+      key_field: ParentId
+      after: Insert Account
+Insert PricebookEntry:
+  sf_object: PricebookEntry
+  table: PricebookEntry
+  fields:
+  - IsActive
+  - UnitPrice
+  - UseStandardPrice
+  lookups:
+    Pricebook2Id:
+      table: Pricebook2
+      key_field: Pricebook2Id
+    Product2Id:
+      table: Product2
+      key_field: Product2Id
+Insert Media_Asset__c:
+  sf_object: Media_Asset__c
+  table: Media_Asset__c
+  fields:
+  - Media_Asset__c
+  lookups:
+    Publisher__c:
+      table: Account
+      key_field: Publisher__c
+Insert Advertiser_Publisher_Relationship__c:
+  sf_object: Advertiser_Publisher_Relationship__c
+  table: Advertiser_Publisher_Relationship__c
+  fields:
+  - Assigned_Rep__c
+  - Comments__c
+  - Status__c
+  lookups:
+    Advertiser__c:
+      table: Account
+      key_field: Advertiser__c
+    Publisher__c:
+      table: Account
+      key_field: Publisher__c
+Insert Issue_Date__c:
+  sf_object: Issue_Date__c
+  table: Issue_Date__c
+  fields:
+  - Issue_Date__c
+  lookups:
+    Media_Asset__c:
+      table: Media_Asset__c
+      key_field: Media_Asset__c
