@@ -12,6 +12,10 @@
     "userManagementSettings": {
       "enableNewProfileUI": true
     },
+    "productSettings": {
+      "enableQuantitySchedule": true,
+      "enableRevenueSchedule": true
+    },
     "securitySettings": {
       "enableAdminLoginAsAnyUser": true,
       "sessionSettings": {
