@@ -1,12 +1,17 @@
 {
   "orgName": "Bock - Release Test Org",
   "edition": "Enterprise",
+  "features": ["ProductsAndSchedules"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
     "chatterSettings": {
       "enableChatter": true
+    },
+    "productSettings": {
+      "enableQuantitySchedule": true,
+      "enableRevenueSchedule": true
     },
     "userManagementSettings": {
       "enableNewProfileUI": true

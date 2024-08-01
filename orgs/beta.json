@@ -1,12 +1,17 @@
 {
   "orgName": "Bock - Beta Test Org",
   "edition": "Developer",
+  "features": ["ProductsAndSchedules"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
     "chatterSettings": {
       "enableChatter": true
+    },
+    "productSettings": {
+      "enableQuantitySchedule": true,
+      "enableRevenueSchedule": true
     },
     "userManagementSettings": {
       "enableNewProfileUI": true

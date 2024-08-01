@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>www.gtalumni.org</fullName>
+        <default>false</default>
+        <label>www.gtalumni.org</label>
+    </customValue>
+    <customValue>
+        <fullName>https://www.isualum.org/</fullName>
+        <default>false</default>
+        <label>https://www.isualum.org/</label>
+    </customValue>
+    <customValue>
+        <fullName>https://www.mizzou.com/</fullName>
+        <default>false</default>
+        <label>https://www.mizzou.com/</label>
+    </customValue>
+    <customValue>
+        <fullName>https://www.huskeralum.org/</fullName>
+        <default>false</default>
+        <label>https://www.huskeralum.org/</label>
+    </customValue>
+    <customValue>
+        <fullName>Benefit Listing and inclusion in the Special Offer Email</fullName>
+        <default>false</default>
+        <label>Benefit Listing and inclusion in the Special Offer Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Aggie Rewards Alumni and Member Benefits</fullName>
+        <default>false</default>
+        <label>Aggie Rewards Alumni and Member Benefits</label>
+    </customValue>
+    <customValue>
+        <fullName>https://connect.ufalumni.ufl.edu/</fullName>
+        <default>false</default>
+        <label>https://connect.ufalumni.ufl.edu/</label>
+    </customValue>
+    <customValue>
+        <fullName>https://www.ukalumni.net/</fullName>
+        <default>false</default>
+        <label>https://www.ukalumni.net/</label>
+    </customValue>
+    <customValue>
+        <fullName>AgUpdate.com</fullName>
+        <default>false</default>
+        <label>AgUpdate.com</label>
+    </customValue>
+    <customValue>
+        <fullName>Irrigation and Lighting</fullName>
+        <default>false</default>
+        <label>Irrigation and Lighting</label>
+    </customValue>
+    <customValue>
+        <fullName>News Harvest</fullName>
+        <default>false</default>
+        <label>News Harvest</label>
+    </customValue>
+    <customValue>
+        <fullName>Georgia Tech Alumni Newsletter</fullName>
+        <default>false</default>
+        <label>Georgia Tech Alumni Newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>CY&apos;s Suitcase</fullName>
+        <default>false</default>
+        <label>CY&apos;s Suitcase</label>
+    </customValue>
+    <customValue>
+        <fullName>Iowa Stater</fullName>
+        <default>false</default>
+        <label>Iowa Stater</label>
+    </customValue>
+    <customValue>
+        <fullName>At K-State</fullName>
+        <default>false</default>
+        <label>At K-State</label>
+    </customValue>
+    <customValue>
+        <fullName>Bully&apos;s Bark volunteer newsletter</fullName>
+        <default>false</default>
+        <label>Bully&apos;s Bark volunteer newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>Maroon Insider</fullName>
+        <default>false</default>
+        <label>Maroon Insider</label>
+    </customValue>
+    <customValue>
+        <fullName>Traveling Bulldogs Newsletter</fullName>
+        <default>false</default>
+        <label>Traveling Bulldogs Newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>Young Alumni Newsletter</fullName>
+        <default>false</default>
+        <label>Young Alumni Newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>Boone County Chapter Newsletter (MO)</fullName>
+        <default>false</default>
+        <label>Boone County Chapter Newsletter (MO)</label>
+    </customValue>
+    <customValue>
+        <fullName>Kansas City Chapter Newsletter</fullName>
+        <default>false</default>
+        <label>Kansas City Chapter Newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>LA/Orange County Chapter Newsletter</fullName>
+        <default>false</default>
+        <label>LA/Orange County Chapter Newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>Las Vegas Chapter Newsletter</fullName>
+        <default>false</default>
+        <label>Las Vegas Chapter Newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>Mizzou Alumni News</fullName>
+        <default>false</default>
+        <label>Mizzou Alumni News</label>
+    </customValue>
+    <customValue>
+        <fullName>Mizzou-YA (Young Alumni) News</fullName>
+        <default>false</default>
+        <label>Mizzou-YA (Young Alumni) News</label>
+    </customValue>
+    <customValue>
+        <fullName>San Diego Chapter Newsletter</fullName>
+        <default>false</default>
+        <label>San Diego Chapter Newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>San Francisco Chapter Newsletter</fullName>
+        <default>false</default>
+        <label>San Francisco Chapter Newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>St. Louis Chapter Newsletter</fullName>
+        <default>false</default>
+        <label>St. Louis Chapter Newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>Touring Tiger News</fullName>
+        <default>false</default>
+        <label>Touring Tiger News</label>
+    </customValue>
+    <customValue>
+        <fullName>True Tiger Network News</fullName>
+        <default>false</default>
+        <label>True Tiger Network News</label>
+    </customValue>
+    <customValue>
+        <fullName>True Tiger Network News (parent version)</fullName>
+        <default>false</default>
+        <label>True Tiger Network News (parent version)</label>
+    </customValue>
+    <customValue>
+        <fullName>Alumni Adventure Travelers</fullName>
+        <default>false</default>
+        <label>Alumni Adventure Travelers</label>
+    </customValue>
+    <customValue>
+        <fullName>Athletics ticket sales</fullName>
+        <default>false</default>
+        <label>Athletics ticket sales</label>
+    </customValue>
+    <customValue>
+        <fullName>eNUz Newsletter</fullName>
+        <default>false</default>
+        <label>eNUz Newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>Nebraska Champions Club</fullName>
+        <default>false</default>
+        <label>Nebraska Champions Club</label>
+    </customValue>
+    <customValue>
+        <fullName>Student Alumni Association</fullName>
+        <default>false</default>
+        <label>Student Alumni Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Crimson + Blue</fullName>
+        <default>false</default>
+        <label>Crimson + Blue</label>
+    </customValue>
+    <customValue>
+        <fullName>Network eNews-Greater KC</fullName>
+        <default>false</default>
+        <label>Network eNews-Greater KC</label>
+    </customValue>
+    <customValue>
+        <fullName>Network eNews-Kansas</fullName>
+        <default>false</default>
+        <label>Network eNews-Kansas</label>
+    </customValue>
+    <customValue>
+        <fullName>News from the Nest</fullName>
+        <default>false</default>
+        <label>News from the Nest</label>
+    </customValue>
+    <customValue>
+        <fullName>President&apos;s Club eNews</fullName>
+        <default>false</default>
+        <label>President&apos;s Club eNews</label>
+    </customValue>
+    <customValue>
+        <fullName>The Water Cooler</fullName>
+        <default>false</default>
+        <label>The Water Cooler</label>
+    </customValue>
+    <customValue>
+        <fullName>Aggie Connections</fullName>
+        <default>false</default>
+        <label>Aggie Connections</label>
+    </customValue>
+    <customValue>
+        <fullName>Regional Network Bay Area</fullName>
+        <default>false</default>
+        <label>Regional Network Bay Area</label>
+    </customValue>
+    <customValue>
+        <fullName>Regional Network Sacramento</fullName>
+        <default>false</default>
+        <label>Regional Network Sacramento</label>
+    </customValue>
+    <customValue>
+        <fullName>Gator Nation News</fullName>
+        <default>false</default>
+        <label>Gator Nation News</label>
+    </customValue>
+    <customValue>
+        <fullName>March Madness</fullName>
+        <default>false</default>
+        <label>March Madness</label>
+    </customValue>
+    <customValue>
+        <fullName>Wildcat Connection</fullName>
+        <default>false</default>
+        <label>Wildcat Connection</label>
+    </customValue>
+    <customValue>
+        <fullName>Wildcat Ten</fullName>
+        <default>false</default>
+        <label>Wildcat Ten</label>
+    </customValue>
+    <customValue>
+        <fullName>Wildcat Voices</fullName>
+        <default>false</default>
+        <label>Wildcat Voices</label>
+    </customValue>
+    <customValue>
+        <fullName>Alumni Angle</fullName>
+        <default>false</default>
+        <label>Alumni Angle</label>
+    </customValue>
+    <customValue>
+        <fullName>Maroon and Gold Rewards</fullName>
+        <default>false</default>
+        <label>Maroon and Gold Rewards</label>
+    </customValue>
+    <customValue>
+        <fullName>Minnesota Alumni Travel</fullName>
+        <default>false</default>
+        <label>Minnesota Alumni Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Minnesota Alumni Travel Tips</fullName>
+        <default>false</default>
+        <label>Minnesota Alumni Travel Tips</label>
+    </customValue>
+    <customValue>
+        <fullName>Minnesota Alumni Travel Young Alumni</fullName>
+        <default>false</default>
+        <label>Minnesota Alumni Travel Young Alumni</label>
+    </customValue>
+    <customValue>
+        <fullName>MN Alumni Market</fullName>
+        <default>false</default>
+        <label>MN Alumni Market</label>
+    </customValue>
+    <customValue>
+        <fullName>New Member Series</fullName>
+        <default>false</default>
+        <label>New Member Series</label>
+    </customValue>
+    <customValue>
+        <fullName>Ski-U-Mania</fullName>
+        <default>false</default>
+        <label>Ski-U-Mania</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Roundup</fullName>
+        <default>false</default>
+        <label>Product Roundup</label>
+    </customValue>
+    <customValue>
+        <fullName>Member benefit e-mail</fullName>
+        <default>false</default>
+        <label>Member benefit e-mail</label>
+    </customValue>
+    <customValue>
+        <fullName>In the Know Parent Email</fullName>
+        <default>false</default>
+        <label>In the Know Parent Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Irrigation Today</fullName>
+        <default>false</default>
+        <label>Irrigation Today</label>
+    </customValue>
+    <customValue>
+        <fullName>George Tech Alumni Magazine</fullName>
+        <default>false</default>
+        <label>George Tech Alumni Magazine</label>
+    </customValue>
+    <customValue>
+        <fullName>Iowa Stater Magazine</fullName>
+        <default>false</default>
+        <label>Iowa Stater Magazine</label>
+    </customValue>
+    <customValue>
+        <fullName>K-Stater Magazine</fullName>
+        <default>false</default>
+        <label>K-Stater Magazine</label>
+    </customValue>
+    <customValue>
+        <fullName>Alumnus Magazine</fullName>
+        <default>false</default>
+        <label>Alumnus Magazine</label>
+    </customValue>
+    <customValue>
+        <fullName>Mizzou Magazine</fullName>
+        <default>false</default>
+        <label>Mizzou Magazine</label>
+    </customValue>
+    <customValue>
+        <fullName>Nebraska Quarterly</fullName>
+        <default>false</default>
+        <label>Nebraska Quarterly</label>
+    </customValue>
+    <customValue>
+        <fullName>Nebraska Quarterly Expanded Alumni Issue</fullName>
+        <default>false</default>
+        <label>Nebraska Quarterly Expanded Alumni Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Kansas Alumni</fullName>
+        <default>false</default>
+        <label>Kansas Alumni</label>
+    </customValue>
+    <customValue>
+        <fullName>Florida Gator Magazine</fullName>
+        <default>false</default>
+        <label>Florida Gator Magazine</label>
+    </customValue>
+    <customValue>
+        <fullName>Kentucky Alumni Magazine</fullName>
+        <default>false</default>
+        <label>Kentucky Alumni Magazine</label>
+    </customValue>
+    <customValue>
+        <fullName>Minnesota Alumni Magazine</fullName>
+        <default>false</default>
+        <label>Minnesota Alumni Magazine</label>
+    </customValue>
+    <customValue>
+        <fullName>Iowa Farmer Today</fullName>
+        <default>false</default>
+        <label>Iowa Farmer Today</label>
+    </customValue>
+    <customValue>
+        <fullName>IL/MO Farmer Today</fullName>
+        <default>false</default>
+        <label>IL/MO Farmer Today</label>
+    </customValue>
+    <customValue>
+        <fullName>Midwest Messenger</fullName>
+        <default>false</default>
+        <label>Midwest Messenger</label>
+    </customValue>
+    <customValue>
+        <fullName>Tri-State Neighbor</fullName>
+        <default>false</default>
+        <label>Tri-State Neighbor</label>
+    </customValue>
+    <customValue>
+        <fullName>The Land</fullName>
+        <default>false</default>
+        <label>The Land</label>
+    </customValue>
+    <customValue>
+        <fullName>Midwest Marketer</fullName>
+        <default>false</default>
+        <label>Midwest Marketer</label>
+    </customValue>
+    <customValue>
+        <fullName>Facebook Post</fullName>
+        <default>false</default>
+        <label>Facebook Post</label>
+    </customValue>
+    <customValue>
+        <fullName>Instagram Post</fullName>
+        <default>false</default>
+        <label>Instagram Post</label>
+    </customValue>
+    <customValue>
+        <fullName>LinkedIn Post</fullName>
+        <default>false</default>
+        <label>LinkedIn Post</label>
+    </customValue>
+    <customValue>
+        <fullName>Twitter Post</fullName>
+        <default>false</default>
+        <label>Twitter Post</label>
+    </customValue>
+    <customValue>
+        <fullName>https://www.k-state.com/</fullName>
+        <default>false</default>
+        <label>https://www.k-state.com/</label>
+    </customValue>
+    <customValue>
+        <fullName>https://www.alumni.msstate.edu/</fullName>
+        <default>false</default>
+        <label>https://www.alumni.msstate.edu/</label>
+    </customValue>
+    <customValue>
+        <fullName>https://kansasalumnimagazine.org/</fullName>
+        <default>false</default>
+        <label>https://kansasalumnimagazine.org/</label>
+    </customValue>
+    <customValue>
+        <fullName>https://kualumni.org/</fullName>
+        <default>false</default>
+        <label>https://kualumni.org/</label>
+    </customValue>
+    <customValue>
+        <fullName>https://alumni.ucdavis.edu/</fullName>
+        <default>false</default>
+        <label>https://alumni.ucdavis.edu/</label>
+    </customValue>
+    <customValue>
+        <fullName>https://www.umnalumni.org/</fullName>
+        <default>false</default>
+        <label>https://www.umnalumni.org/</label>
+    </customValue>
+    <customValue>
+        <fullName>https://irrigationandlighting.org/</fullName>
+        <default>false</default>
+        <label>https://irrigationandlighting.org/</label>
+    </customValue>
+    <customValue>
+        <fullName>https://irrigationtoday.org/</fullName>
+        <default>false</default>
+        <label>https://irrigationtoday.org/</label>
+    </customValue>
+    <customValue>
+        <fullName>Amplified Ag</fullName>
+        <default>false</default>
+        <label>Amplified Ag</label>
+    </customValue>
+    <customValue>
+        <fullName>Farm Journal Live</fullName>
+        <default>false</default>
+        <label>Farm Journal Live</label>
+    </customValue>
+    <customValue>
+        <fullName>Farm Journal Crop</fullName>
+        <default>false</default>
+        <label>Farm Journal Crop</label>
+    </customValue>
+    <customValue>
+        <fullName>name of list OR website url</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>name of list OR website url</label>
+    </customValue>
+    <masterLabel>Media Asset</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

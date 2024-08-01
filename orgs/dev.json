@@ -1,6 +1,7 @@
 {
   "orgName": "Bock - Dev Org",
   "edition": "Developer",
+  "features": ["ProductsAndSchedules"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
@@ -10,6 +11,10 @@
     },
     "userManagementSettings": {
       "enableNewProfileUI": true
+    },
+    "productSettings": {
+      "enableQuantitySchedule": true,
+      "enableRevenueSchedule": true
     },
     "securitySettings": {
       "enableAdminLoginAsAnyUser": true,

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UnitSize__c</fullName>
+    <description>This indicates the size of the unit we are proposing to sell; relates to the product family!</description>
+    <externalId>false</externalId>
+    <label>Unit Size</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Logo and Text</fullName>
+                <default>false</default>
+                <label>Logo and Text</label>
+            </value>
+            <value>
+                <fullName>Middle Banner</fullName>
+                <default>false</default>
+                <label>Middle Banner</label>
+            </value>
+            <value>
+                <fullName>Special Unit</fullName>
+                <default>false</default>
+                <label>Special Unit</label>
+            </value>
+            <value>
+                <fullName>Half Page</fullName>
+                <default>false</default>
+                <label>Half Page</label>
+            </value>
+            <value>
+                <fullName>Full Page</fullName>
+                <default>false</default>
+                <label>Full Page</label>
+            </value>
+            <value>
+                <fullName>Top Banner</fullName>
+                <default>false</default>
+                <label>Top Banner</label>
+            </value>
+            <value>
+                <fullName>Bottom Banner</fullName>
+                <default>false</default>
+                <label>Bottom Banner</label>
+            </value>
+            <value>
+                <fullName>Front Cover Inside</fullName>
+                <default>false</default>
+                <label>Front Cover Inside</label>
+            </value>
+            <value>
+                <fullName>Back Cover Inside</fullName>
+                <default>false</default>
+                <label>Back Cover Inside</label>
+            </value>
+            <value>
+                <fullName>Post-It</fullName>
+                <default>false</default>
+                <label>Post-It</label>
+            </value>
+            <value>
+                <fullName>Insert</fullName>
+                <default>false</default>
+                <label>Insert</label>
+            </value>
+            <value>
+                <fullName>Front Cover</fullName>
+                <default>false</default>
+                <label>Front Cover</label>
+            </value>
+            <value>
+                <fullName>Back Cover</fullName>
+                <default>false</default>
+                <label>Back Cover</label>
+            </value>
+            <value>
+                <fullName>One-Third Page</fullName>
+                <default>false</default>
+                <label>One-Third Page</label>
+            </value>
+            <value>
+                <fullName>Quarter Page</fullName>
+                <default>false</default>
+                <label>Quarter Page</label>
+            </value>
+            <value>
+                <fullName>Junior Page</fullName>
+                <default>false</default>
+                <label>Junior Page</label>
+            </value>
+            <value>
+                <fullName>One-Sixth Page</fullName>
+                <default>false</default>
+                <label>One-Sixth Page</label>
+            </value>
+            <value>
+                <fullName>Full Spread</fullName>
+                <default>false</default>
+                <label>Full Spread</label>
+            </value>
+            <value>
+                <fullName>Junior Spread</fullName>
+                <default>false</default>
+                <label>Junior Spread</label>
+            </value>
+            <value>
+                <fullName>Two-Page Spread</fullName>
+                <default>false</default>
+                <label>Two-Page Spread</label>
+            </value>
+            <value>
+                <fullName>Wrapper</fullName>
+                <default>false</default>
+                <label>Wrapper</label>
+            </value>
+            <value>
+                <fullName>Standard Post</fullName>
+                <default>false</default>
+                <label>Standard Post</label>
+            </value>
+            <value>
+                <fullName>Homepage Hero Rotator Ad</fullName>
+                <default>false</default>
+                <label>Homepage Hero Rotator Ad</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
