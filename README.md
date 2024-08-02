@@ -17,14 +17,23 @@
 
 ## Releases
 
-### To release a new `beta` version of this package:
+### [Recommended] Release this project using Github Actions
+
+1. [Navigate to Settings > Secrets and Actions > Actions](https://github.com/Nimba-Solutions/Bock/settings/secrets/actions)
+2. Update `DEV_HUB_AUTH_URL` with your Dev Hub's `sfdxUrl` (How do I obtain an `sfdxUrl`?)
+3. Update `BETA_ORG_AUTH_URL` with your UAT Sandbox `sfdxUrl`
+4. Update `PROD_ORG_AUTH_URL` with your Production `sfdxUrl`
+
+### [Advanced] Release this project using your CLI
+
+#### To release a new `beta` version of this package:
 
 1. Run `git checkout main` to switch to the main branch.
 2. Run `git pull` to download the latest changes from Github.
 3. Run `cci flow run release_unlocked_beta --org dev --debug` to release a new beta version of this package.
 4. Run `cci org browser dev` to open the org in your browser.
 
-### To release a new `production` version of this package:
+#### To release a new `production` version of this package:
 
 1. Run `git checkout main` to switch to the main branch.
 2. Run `git pull` to download the latest changes from Github.
