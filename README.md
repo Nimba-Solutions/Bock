@@ -20,9 +20,9 @@
 ### [Recommended] Release this project using Github Actions
 
 1. [Navigate to Settings > Secrets and Actions > Actions](https://github.com/Nimba-Solutions/Bock/settings/secrets/actions)
-2. Update `DEV_HUB_AUTH_URL` with your Dev Hub's `sfdxUrl` (How do I obtain an `sfdxUrl`?)
-3. Update `BETA_ORG_AUTH_URL` with your UAT Sandbox `sfdxUrl`
-4. Update `PROD_ORG_AUTH_URL` with your Production `sfdxUrl`
+2. Update `DEV_HUB_AUTH_URL` with your Dev Hub's `sfdxAuthUrl` ([How do I obtain an `sfdxAuthUrl`?](https://github.com/Nimba-Solutions/.github/wiki/Obtain-an-SFDX-Auth-URL))
+3. Update `BETA_ORG_AUTH_URL` with your UAT Sandbox `sfdxAuthUrl`
+4. Update `PROD_ORG_AUTH_URL` with your Production `sfdxAuthUrl`
 
 ### [Advanced] Release this project using your CLI
 
