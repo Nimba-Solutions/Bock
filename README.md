@@ -4,7 +4,7 @@
 
 ### [Recommended] Contribute to this project in your browser. 
 
-1. [Navigate to this project in nimba.dev](https://www.nimba.dev/projects/bock)
+1. [Navigate to the Bock project in nimba.dev](https://www.nimba.dev/projects/bock)
 2. Create / Go To a Task record.
 3. In the `Developer` card, click "Assign" and select yourself.
 4. Click `Create Org` (NOT `Create Scratch Org`)
