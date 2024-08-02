@@ -12,6 +12,11 @@ project:
     source_format: sfdx
 
 tasks:
+    load_sample_data:
+    class_path: cumulusci.tasks.sample_data.load_sample_data.LoadSampleData
+    options:
+      ignore_row_errors: true
+      drop_missing_schema: true
     robot:
         options:
             suites: robot/Bock/tests
