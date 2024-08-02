@@ -12,19 +12,12 @@ project:
     source_format: sfdx
 
 tasks:
-    # Robot Framework tasks
+    # Standard Tasks
     robot:
         options:
             suites: robot/Bock/tests
             options:
                 outputdir: robot/Bock/results
-
-tasks:
-  load_sample_data:
-    class_path: cumulusci.tasks.sample_data.load_sample_data.LoadSampleData
-    options:
-      ignore_row_errors: true
-      drop_missing_schema: true
 
     robot_testdoc:
         options:
@@ -36,18 +29,17 @@ tasks:
             required_org_code_coverage_percent: 75
     
     # Custom Tasks
+    assign_unpackaged_pre_permissionsets:
+        class_path: cumulusci.tasks.salesforce.users.permsets.AssignPermissionSets
+        options:
+            api_names: EnhancedSchedule_CRUD
+    
     load_sample_data:
         class_path: cumulusci.tasks.sample_data.load_sample_data.LoadSampleData
         options:
             ignore_row_errors: true
             drop_missing_schema: true
 
-    assign_unpackaged_pre_permissionsets:
-        class_path: cumulusci.tasks.salesforce.users.permsets.AssignPermissionSets
-        options:
-            api_names: EnhancedSchedule_CRUD
-
-# Flows
 flows:
     dependencies:
         steps:
