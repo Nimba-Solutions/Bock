@@ -1,0 +1,15 @@
+name: Release Production (Unlocked)
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  upload-prod:
+    uses: nimba-actions/standard-workflows/.github/workflows/production-unlocked.yml@main
+    secrets:
+      dev-hub-auth-url: ${{ secrets.DEV_HUB_AUTH_URL }}
+    with:
+      cumulusci-version: "3.78.0"
+      org-name: "prod"
