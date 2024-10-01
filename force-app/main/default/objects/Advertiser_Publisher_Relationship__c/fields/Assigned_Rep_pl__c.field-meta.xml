@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_Rep_pl__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This will be a lookup. It&apos;s a picklist for now as we only have 2 licenses.</inlineHelpText>
+    <label>Assigned Rep (temp)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Andresa Strahm</fullName>
+                <default>false</default>
+                <label>Andresa Strahm</label>
+            </value>
+            <value>
+                <fullName>Chris Bateman</fullName>
+                <default>false</default>
+                <label>Chris Bateman</label>
+            </value>
+            <value>
+                <fullName>Eric Anderson</fullName>
+                <default>false</default>
+                <label>Eric Anderson</label>
+            </value>
+            <value>
+                <fullName>Leah Mindemann</fullName>
+                <default>false</default>
+                <label>Leah Mindemann</label>
+            </value>
+            <value>
+                <fullName>Peter Rupert</fullName>
+                <default>false</default>
+                <label>Peter Rupert</label>
+            </value>
+            <value>
+                <fullName>Shane Ennenga</fullName>
+                <default>false</default>
+                <label>Shane Ennenga</label>
+            </value>
+            <value>
+                <fullName>Tom Bock</fullName>
+                <default>false</default>
+                <label>Tom Bock</label>
+            </value>
+            <value>
+                <fullName>Tom Schoen</fullName>
+                <default>false</default>
+                <label>Tom Schoen</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
