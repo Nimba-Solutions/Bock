@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Other</fullName>
+    <fullName>Brand</fullName>
     <active>true</active>
-    <label>Other</label>
+    <description>Individual child Brands owned by an Advertiser</description>
+    <label>Brand</label>
     <picklistValues>
         <picklist>AccountSource</picklist>
         <values>
