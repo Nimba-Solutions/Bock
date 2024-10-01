@@ -1,0 +1,95 @@
+extract:
+  Account:
+    fields:
+    - Name
+    - Agency__c
+    - BillingCity
+    - BillingCountry
+    - BillingGeocodeAccuracy
+    - BillingLatitude
+    - BillingLongitude
+    - BillingState
+    - BillingStreet
+    - BillingPostalCode
+    - Category__c
+    - Common_Name__c
+    - Current__c
+    - Entity_Name__c
+    - Fiscal_Year_Start_Date__c
+    - FJM_Naviga_ID__c
+    - Old_Org_18_ID__c
+    - ShippingCity
+    - ShippingCountry
+    - ShippingGeocodeAccuracy
+    - ShippingLatitude
+    - ShippingLongitude
+    - ShippingState
+    - ShippingStreet
+    - ShippingPostalCode
+    - Website
+    - Industry
+    - Notes__c
+    - Ownership
+    - Phone
+    - Type
+    - Description
+  DandBCompany:
+    fields:
+    - DunsNumber
+    - Name
+  OperatingHours:
+    fields:
+    - Name
+    - TimeZone
+  Issue_Date__c:
+    fields:
+    - Issue_Date__c
+    - Media_Asset__c
+  Media_Asset__c:
+    fields:
+    - Media_Asset__c
+  Pricebook2:
+    fields:
+    - Description
+    - IsActive
+    - Name
+  PricebookEntry:
+    fields:
+    - IsActive
+    - UnitPrice
+    - Pricebook2Id
+    - Product2Id
+    - UseStandardPrice
+  Product2:
+    fields:
+    - Alumni_Association__c
+    - CanUseQuantitySchedule
+    - CanUseRevenueSchedule
+    - Description
+    - DisplayUrl
+    - ExternalId
+    - Family
+    - IsActive
+    - IsSerialized
+    - Media_Asset__c
+    - Name
+    - NumberOfQuantityInstallments
+    - NumberOfRevenueInstallments
+    - ProductCode
+    - Publisher__c
+    - QuantityInstallmentPeriod
+    - QuantityScheduleType
+    - QuantityUnitOfMeasure
+    - RevenueInstallmentPeriod
+    - RevenueScheduleType
+    - StockKeepingUnit
+    - TransferRecordMode
+    - UnitSize__c
+  Advertiser_Publisher_Relationship__c:
+    fields:
+    - Advertiser__c
+    - Assigned_Rep__c
+    - Assigned_Rep_pl__c
+    - Comments__c
+    - Publisher__c
+    - Status__c
