@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Opportunity</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Communication and interest has been established.&lt;/li&gt;&lt;li&gt;Having regular conversations.&lt;/li&gt;&lt;li&gt;Determine and build one or multiple Quotes.&lt;/li&gt;&lt;li&gt;Move Stage to &amp;quot;Negotiations&amp;quot; once the Quote is sent.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Needs Analysis</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;One or more Quotes have been created and sent for review.&lt;/li&gt;&lt;li&gt;Quotes are being discussed and potentially updated and re-sent for review.&lt;/li&gt;&lt;li&gt;Push out the Close Date to align with assumed date of contract signature.&lt;ul&gt;&lt;li&gt;Close Date should always be in the future for open Opportunities.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Move to Closed Won when a contract is signed.&lt;/li&gt;&lt;li&gt;Move to Closed Lost when the negotiations don&amp;#39;t move forward with a signed contract.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Negotiations</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

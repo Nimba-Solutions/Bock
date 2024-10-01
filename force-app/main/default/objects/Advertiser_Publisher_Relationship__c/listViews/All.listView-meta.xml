@@ -4,7 +4,6 @@
     <columns>NAME</columns>
     <columns>Advertiser__c</columns>
     <columns>Publisher__c</columns>
-    <columns>Owner__c</columns>
     <columns>Status__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Existing_Advertiser_Brand</fullName>
+        <default>false</default>
+        <label>Existing Advertiser/Brand</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Net_New_Advertiser_Brand</fullName>
+        <default>false</default>
+        <label>Net New Advertiser/Brand</label>
+    </standardValue>
+</StandardValueSet>

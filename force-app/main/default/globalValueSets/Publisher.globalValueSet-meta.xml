@@ -30,6 +30,11 @@
         <default>false</default>
         <label>Farm Journal</label>
     </customValue>
+    <customValue>
+        <fullName>Impact Alumni</fullName>
+        <default>false</default>
+        <label>Impact Alumni</label>
+    </customValue>
     <masterLabel>Publisher</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

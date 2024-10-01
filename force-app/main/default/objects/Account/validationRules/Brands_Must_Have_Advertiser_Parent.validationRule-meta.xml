@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brands_Must_Have_Advertiser_Parent</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordType.DeveloperName = &quot;Brand&quot;
+&amp;&amp;
+ISBLANK(ParentId)</errorConditionFormula>
+    <errorMessage>Brands must have an Advertiser listed as a Parent Account.</errorMessage>
+</ValidationRule>

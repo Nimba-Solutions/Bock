@@ -471,6 +471,51 @@
         <label>Farm Journal Crop</label>
     </customValue>
     <customValue>
+        <fullName>www.isualum.org</fullName>
+        <default>false</default>
+        <label>www.isualum.org</label>
+    </customValue>
+    <customValue>
+        <fullName>Online</fullName>
+        <default>false</default>
+        <label>Online</label>
+    </customValue>
+    <customValue>
+        <fullName>www.mizzou.com</fullName>
+        <default>false</default>
+        <label>www.mizzou.com</label>
+    </customValue>
+    <customValue>
+        <fullName>www.huskeralum.org</fullName>
+        <default>false</default>
+        <label>www.huskeralum.org</label>
+    </customValue>
+    <customValue>
+        <fullName>www.connect.ufalumni.ufl.edu</fullName>
+        <default>false</default>
+        <label>www.connect.ufalumni.ufl.edu</label>
+    </customValue>
+    <customValue>
+        <fullName>www.ukalumni.net</fullName>
+        <default>false</default>
+        <label>www.ukalumni.net</label>
+    </customValue>
+    <customValue>
+        <fullName>www.agupdate.com</fullName>
+        <default>false</default>
+        <label>www.agupdate.com</label>
+    </customValue>
+    <customValue>
+        <fullName>YA (Young Alumni) News</fullName>
+        <default>false</default>
+        <label>YA (Young Alumni) News</label>
+    </customValue>
+    <customValue>
+        <fullName>www.umnalumni.org</fullName>
+        <default>false</default>
+        <label>www.umnalumni.org</label>
+    </customValue>
+    <customValue>
         <fullName>name of list OR website url</fullName>
         <default>false</default>
         <isActive>false</isActive>
