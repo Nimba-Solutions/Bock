@@ -3,19 +3,20 @@
     <fullName>Advertiser__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Advertiser</label>
+    <label>Advertiser/Brand</label>
     <lookupFilter>
         <active>true</active>
-        <errorMessage>The Account selected must have a Record Type of Advertiser.</errorMessage>
+        <errorMessage>The Account selected must have a Record Type of Advertiser or Brand.</errorMessage>
         <filterItems>
             <field>Account.RecordTypeId</field>
             <operation>equals</operation>
-            <value>Advertiser</value>
+            <value>Advertiser, Brand</value>
         </filterItems>
         <infoMessage>The Account selected must have a Record Type of Advertiser.</infoMessage>
         <isOptional>false</isOptional>
     </lookupFilter>
     <referenceTo>Account</referenceTo>
+    <relationshipLabel>Rep Assignments (Advertiser/Brand)</relationshipLabel>
     <relationshipName>APR_Advertiser</relationshipName>
     <required>false</required>
     <trackHistory>true</trackHistory>

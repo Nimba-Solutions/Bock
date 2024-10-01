@@ -135,6 +135,11 @@
         <default>false</default>
         <label>Half Spread</label>
     </customValue>
+    <customValue>
+        <fullName>Custom</fullName>
+        <default>false</default>
+        <label>Custom</label>
+    </customValue>
     <masterLabel>Unit Size</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

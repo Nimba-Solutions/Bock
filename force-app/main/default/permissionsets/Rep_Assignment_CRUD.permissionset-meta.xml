@@ -8,17 +8,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Advertiser_Publisher_Relationship__c.Assigned_Rep__c</field>
+        <field>Advertiser_Publisher_Relationship__c.Assigned_Rep_pl__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Advertiser_Publisher_Relationship__c.Comments__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Advertiser_Publisher_Relationship__c.Owner__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

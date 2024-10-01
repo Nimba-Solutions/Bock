@@ -27,41 +27,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Agency_Owner__c</picklist>
-        <values>
-            <fullName>Andresa Strahm</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Chris Bateman</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Eric Anderson</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Leah Mindemann</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Peter Rupert</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Shane Ennenga</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Tom Bock</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Tom Schoen</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Category__c</picklist>
         <values>
             <fullName>Ag Crops</fullName>

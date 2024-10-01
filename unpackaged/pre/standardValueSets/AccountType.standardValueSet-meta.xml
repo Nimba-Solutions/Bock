@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Prospect</fullName>
+        <default>false</default>
+        <label>Prospect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer</fullName>
+        <default>false</default>
+        <label>Customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Actively Advertising</fullName>
+        <default>false</default>
+        <label>Actively Advertising</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Classification in Question</fullName>
+        <default>false</default>
+        <label>Classification in Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Do Not Call / Internal Publisher Account</fullName>
+        <default>false</default>
+        <label>Do Not Call / Internal Publisher Account</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect - Rep Actively Working</fullName>
+        <default>false</default>
+        <label>Prospect - Rep Actively Working</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </standardValue>
+</StandardValueSet>
